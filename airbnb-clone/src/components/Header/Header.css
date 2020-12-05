@@ -1,5 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .header__icon {
   object-fit: contain;
   height: 100px;
   margin-left: 20px;
+}
+
+.header__center {
+  display: flex;
+  align-items: center;
+  /* to take up the space as much as it can */
+  flex: 1;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
 }
