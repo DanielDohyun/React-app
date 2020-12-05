@@ -1,0 +1,32 @@
+.banner {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf-skkw_lIYqBwtlDn5QbtUsJjKgbD0qOdzQ&usqp=CAU")
+    center center;
+  height: 50vh;
+  position: relative;
+  background-size: cover;
+}
+
+.banner__info {
+  background-color: black;
+  color: white;
+  padding: 25vh 50px 40px 50px;
+  width: 300px;
+}
+
+.banner__info > button {
+  background-color: #ff7779;
+  color: white;
+  /* to remove default uppercase */
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.banner__info > button:hover {
+  background-color: white;
+  color: #ff7779;
+}
+
+.banner__info > h5 {
+  margin-top: 10px;
+}
