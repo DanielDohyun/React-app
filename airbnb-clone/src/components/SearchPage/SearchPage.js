@@ -1,5 +1,6 @@
 import { Button } from '@material-ui/core';
 import React from 'react';
+import SearchResult from '../SearchResult/SearchResult';
 import './SearchPage.css';
 
 function SearchPage() {
@@ -16,6 +17,15 @@ function SearchPage() {
                 <Button variant="outlined">Rooms and beds</Button>
                 <Button variant="outlined">More filters</Button>
             </div>
+            <SearchResult
+                img="https://a0.muscache.com/im/pictures/fdb46962-10c1-45fc-a228-d0b055411448.jpg?im_w=720"
+                location="Private house in center of Toronto"
+                title="Its all yours"
+                description="5-8 guest 3 bedrooms 2 bathrooms kitchen wifi"
+                star={4.8}
+                price="$150/night"
+                total="$310 total"
+            />
         </div>
     )
 }
