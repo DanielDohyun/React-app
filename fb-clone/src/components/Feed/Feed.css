@@ -1,0 +1,9 @@
+.feed {
+  /* to take up the room as much as it can  */
+  flex: 1;
+  padding: 30px 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
