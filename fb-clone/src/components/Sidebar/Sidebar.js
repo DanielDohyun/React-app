@@ -12,7 +12,7 @@ import VideoLibraryIcon from '@material-ui/icons/VideoLibrary'
 function Sidebar() {
     return (
         <div className="sidebar">
-            <SidebarRow src="" title="Daniel Kim" />
+            <SidebarRow src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT0rE9Up76MQwge7VoFxfepZlMus6J4kUvzA&usqp=CAU" title="Dan Kim" />
             <SidebarRow Icon={LocalHospitalIcon} title="COVID-19 Information Center" />
             <SidebarRow Icon={EmojiFlagsIcon} title="Pages" />
             <SidebarRow Icon={PeopleIcon} title="Friends" />
