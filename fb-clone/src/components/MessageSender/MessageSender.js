@@ -4,10 +4,12 @@ import './MessageSender.css';
 import VideocamIcon from '@material-ui/icons/Videocam';
 import PhotoLibraryIcon from '@material-ui/icons/PhotoLibrary';
 import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
+import { useStateValue } from '../../StateProvider';
 
 function MessageSender() {
     const [input, setInput] = useState('');
     const [imageUrl, setImageUrl] = useState('');
+    const [{ user }, dispatch] = useStateValue();
 
     const handleSubmit = e => {
         e.preventDefault();
@@ -19,13 +21,13 @@ function MessageSender() {
     return (
         <div className="msg">
             <div className="msg__top">
-                <Avatar />
+                <Avatar src={ user.photoURL }/>
                 <form>
                     <input
                         value={input}
                         onChange={e => setInput(e.target.value)}
                         className="msg__input"
-                        placeholder="Whats on your mind?" />
+                        placeholder={`Whats on your mind, ${user.displayName}?`} />
                     <input
                         value={imageUrl}
                         onChange={e => setImageUrl(e.target.value)}
