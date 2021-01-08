@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div className="footer">
             <p>2020 Airbnb clone. No reserved </p>
-            <p>Privacy * Terms * Sitemap * Company Details</p>
+            <p>Privacy · Terms · Sitemap · Company Details</p>
         </div>
     )
 }

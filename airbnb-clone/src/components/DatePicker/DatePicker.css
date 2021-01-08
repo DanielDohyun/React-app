@@ -1,11 +1,13 @@
-.date {
+.search {
   position: absolute;
   top: 35px;
-  left: 25%;
-  width: 100vw;
+  left: 30%;
+  z-index: 1;
+  background: white !important;
+  height: 400px;
 }
 
-.date > h2 {
+.search > h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -17,7 +19,7 @@
   top: 380px;
 }
 
-.date > input {
+.search > input {
   width: 539px;
   padding: 20px;
   position: absolute;
@@ -27,12 +29,11 @@
   border: none;
 }
 
-/* when you click on input box => hide outline */
-.date > input:focus {
+.search > input:focus {
   outline-width: 0;
 }
 
-.date > button {
+.search > button {
   position: absolute;
   left: 0;
   top: 480px;
@@ -42,7 +43,7 @@
   width: 579px;
 }
 
-.date > button:hover {
+.search > button:hover {
   background-color: white;
   color: #ff7779;
 }
