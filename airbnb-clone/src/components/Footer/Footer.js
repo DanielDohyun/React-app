@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
     return (
         <div className="footer">
-            <p>2020 Airbnb clone. No reserved </p>
+            <p>2020 Airbnb clone By Daniel Kim </p>
             <p>Privacy · Terms · Sitemap · Company Details</p>
         </div>
     )
